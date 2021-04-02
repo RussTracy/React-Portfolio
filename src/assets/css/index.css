@@ -3,7 +3,41 @@ body {
 	background: #f9f9f9 url(../images/white_texture.jpg) repeat top left;
 	color: #333;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 13px;
+	font-size: .9em;
+}
+
+/* Utility Styles */
+
+.center {
+	text-align: center;
+}
+
+.mTop {
+	margin-top: 20px;
+}
+
+.mBottom {
+	margin-bottom: 20px;
+}
+
+.mLeft {
+	margin-left: 20px;
+}
+
+.mRight {
+	margin-right: 20px;
+}
+
+.mTopBottom {
+	margin: 20px 0;
+}
+
+.mLeftRight {
+	margin: 0 20px;
+}
+
+.mAll {
+	margin: 20px;
 }
 
 /* Header Styles */
@@ -25,7 +59,7 @@ header {
 header h1 {
 	color: #000;
 	font-weight: bold;
-	font-size: 36px;
+	font-size: 4.5vw;
 	margin: 0;
 	text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -71,8 +105,24 @@ header nav ul li a:hover, footer a:hover {
 }
 
 a {
-	color: #fff;
-	text-decoration: none;
+	color: #607d8b;
+	text-decoration: underline;
+}
+
+h2 {
+	font-size: 3vw;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 2vw;
+	font-weight: bold;
+}
+
+ul {
+	margin: 10px 0 10px 30px;
+	list-style: disc;
+	line-height: 20px;
 }
 
 .clr {
@@ -86,7 +136,7 @@ a {
 	justify-content: center;
 }
 
-.about {
+.about, .resume {
 	display: flex;
 	flex-wrap: wrap;
 	align-content: center;
@@ -96,18 +146,11 @@ a {
 	padding-top: 30px;
 }
 
-.about h2, .contact h2 {
-	font-size: 24px;
-	font-weight: bold;
-}
-
-.contact h2 {
-	text-align: center;
-	margin: 20px 0 0 0;
-}
-
-.about p {
-	margin: 20px 0;
+.resume {
+	align-content: flex-end;
+	align-items: flex-start;
+	justify-content: left;
+	padding-top: 10px;
 }
 
 .about .text {
@@ -117,9 +160,10 @@ a {
 	padding: 10px 20px;
 }
 
-.about .pic, .about .pic img {
+.about .pic img {
 	width: 250px;
 	border-radius: 20px;
+	border: 6px solid #607d8b;
 }
 
 /* Contact Form Styles */
@@ -238,8 +282,11 @@ footer {
 	header nav ul li a, footer, footer a {
 		font-size: 16px;
 	}
-	footer {
-		font-size: 16px;
+	h2 {
+		font-size: 22px;
+	}
+	h3 {
+		font-size: 18px;
 	}
 }
 
@@ -277,6 +324,9 @@ footer {
 }
 
 @media screen and (max-width: 386px) {
+	header h1 {
+		font-size: 24px;
+	}
 	header nav ul li a, footer, footer a {
 		font-size: 14px;
 	}
