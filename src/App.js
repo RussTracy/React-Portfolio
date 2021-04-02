@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <main>
-
+      <Navigation></Navigation>
       <Contact></Contact>
       <About></About>
       <Footer></Footer>
