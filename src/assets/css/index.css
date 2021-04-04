@@ -109,6 +109,11 @@ a {
 	text-decoration: underline;
 }
 
+.active {
+	background-color: #607d8b;
+	border-radius: 15px;
+}
+
 h2 {
 	font-size: 3vw;
 	font-weight: bold;
