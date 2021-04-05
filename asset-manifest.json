@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.9ad563c5.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.37cd2e03.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.37cd2e03.chunk.js.map",
-    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.e2b96d4a.js",
-    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.e2b96d4a.js.map",
+    "main.js": "/React-Portfolio/static/js/main.5775b3e3.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.5775b3e3.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.ffcda04a.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.ffcda04a.js.map",
     "static/js/2.8c49cdd1.chunk.js": "/React-Portfolio/static/js/2.8c49cdd1.chunk.js",
     "static/js/2.8c49cdd1.chunk.js.map": "/React-Portfolio/static/js/2.8c49cdd1.chunk.js.map",
-    "static/js/3.060ffc44.chunk.js": "/React-Portfolio/static/js/3.060ffc44.chunk.js",
-    "static/js/3.060ffc44.chunk.js.map": "/React-Portfolio/static/js/3.060ffc44.chunk.js.map",
+    "static/js/3.c456fecd.chunk.js": "/React-Portfolio/static/js/3.c456fecd.chunk.js",
+    "static/js/3.c456fecd.chunk.js.map": "/React-Portfolio/static/js/3.c456fecd.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
     "static/css/main.9ad563c5.chunk.css.map": "/React-Portfolio/static/css/main.9ad563c5.chunk.css.map",
     "static/js/2.8c49cdd1.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.8c49cdd1.chunk.js.LICENSE.txt",
@@ -29,6 +29,7 @@
     "static/media/RunBuddy2.png": "/React-Portfolio/static/media/RunBuddy2.5560e467.png",
     "static/media/Russ.jpg": "/React-Portfolio/static/media/Russ.5106f426.jpg",
     "static/media/RussTracyResume.pdf": "/React-Portfolio/static/media/RussTracyResume.7c77ff65.pdf",
+    "static/media/ScreenShot.jpg": "/React-Portfolio/static/media/ScreenShot.42ddc52d.jpg",
     "static/media/ServiceTicket.png": "/React-Portfolio/static/media/ServiceTicket.dabaa7ae.png",
     "static/media/TaskMasterPro.png": "/React-Portfolio/static/media/TaskMasterPro.95f39452.png",
     "static/media/Taskinator.png": "/React-Portfolio/static/media/Taskinator.79e7906f.png",
@@ -39,9 +40,9 @@
     "static/media/border2.png": "/React-Portfolio/static/media/border2.61c4dc2f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e2b96d4a.js",
+    "static/js/runtime-main.ffcda04a.js",
     "static/js/2.8c49cdd1.chunk.js",
     "static/css/main.9ad563c5.chunk.css",
-    "static/js/main.37cd2e03.chunk.js"
+    "static/js/main.5775b3e3.chunk.js"
   ]
 }
