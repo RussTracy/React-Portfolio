@@ -8,9 +8,11 @@ import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
 
 
+
+
 function App() {
 
-  const [currentPage, handlePageChange] = useState('Home');
+  const [currentPage, handlePageChange] = useState('About Me');
 
   const renderPage = () => {
     // Add a switch statement that will return the appropriate component of the 'currentPage'
@@ -25,10 +27,12 @@ function App() {
       default:
         return <About />;
     }
-  };
+  }
 
   return (
     <main>
+
+
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       <div>
         {
@@ -40,16 +44,6 @@ function App() {
     </main>
   );
 
-
-  // return (
-  //   <main>
-  //     <Navigation></Navigation>
-  //     <Resume></Resume>
-  //     <Contact></Contact>
-  //     <About></About>
-  //     <Footer></Footer>
-  //   </main>
-  // );
 }
 
 export default App;

@@ -109,6 +109,11 @@ a {
 	text-decoration: underline;
 }
 
+.content a {
+	color: #ffffff;
+	margin: 5px;
+}
+
 .active {
 	background-color: #607d8b;
 	border-radius: 15px;
@@ -202,6 +207,7 @@ ul {
 	padding: 8px;
 	outline: none;
 	border: 1px solid #B0CFE0;
+	transition: all 0.30s ease-in-out;
 	-webkit-transition: all 0.30s ease-in-out;
 	-moz-transition: all 0.30s ease-in-out;
 	-ms-transition: all 0.30s ease-in-out;

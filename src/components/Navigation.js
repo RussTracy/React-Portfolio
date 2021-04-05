@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Nav(props) {
-    const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
+    const tabs = ['About Me', 'Portfolio', 'Contact', 'Resume'];
 
     return (
         <header>
@@ -22,6 +22,7 @@ function Nav(props) {
                             </a>
                         </li>
                     ))}
+
                 </ul>
             </nav>
         </header>
