@@ -1,4 +1,29 @@
-# Getting Started with Create React App
+# React Portfolio
+    
+This is a single page web application built with React that I build to showcase my web projects.
+
+# Usage 
+
+[Deployed Site](https://russtracy.github.io/React-Portfolio/)
+
+![alt text](./src/assets/images/ScreenShot.jpg)
+
+# Credits
+
+Made by Russ Tracy
+
+[React](https://reactjs.org/)
+
+[Font Awesome](https://fontawesome.com/)
+
+# Questions
+
+[Contact Me](russ_tracy@comcast.net)
+
+[GitHub](https://github.com/russtracy)
+
+
+# Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
