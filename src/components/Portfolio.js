@@ -179,7 +179,9 @@ function Portfolio() {
     return (
 
         <div className="container">
+            <h2 className="mTopBottom center">Portfolio</h2>
             <div className="main">
+
                 {projects.map((project, i) =>
                     <div className="view view-animation" key={i}>
                         <img src={require(`../assets/images/${project.image}`).default} alt={project.alt} />
