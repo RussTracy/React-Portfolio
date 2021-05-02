@@ -14,11 +14,20 @@ function Portfolio() {
             git: 'http:www.ocjade.com'
         },
         {
+            image: 'ChattyCathy.jpg',
+            alt: 'Chatty Cathy',
+            title: 'Chatty Cathy',
+            description: 'Mongo / Express / React / Node / Socket.io',
+            url: 'https://stark-escarpment-67979.herokuapp.com/',
+            git: 'https://github.com/mhowe21/ChattyCathy'
+
+        },
+        {
             image: 'ServiceTicket.png',
             alt: 'Service Ticket Manager',
             title: 'Service Ticket Manager',
             description: 'JavaScript / Node / MySQL / Handlebars / MVC',
-            url: 'https:service-ticket-manager.herokuapp.com',
+            url: 'https://service-ticket-manager.herokuapp.com/',
             git: 'https://github.com/6bodaley6/service-ticket-manager'
 
         },
