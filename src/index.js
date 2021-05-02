@@ -4,10 +4,16 @@ import '../src/assets/css/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { fas } from '@fortawesome/free-solid-svg-icons';
+// import { fas } from '@fortawesome/free-solid-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faMobile, faEnvelopeSquare, faMobileAlt } from '@fortawesome/free-solid-svg-icons'
 
-library.add(fas, fab);
+library.add(
+  fab,
+  faEnvelopeSquare,
+  faMobile,
+  faMobileAlt
+);
 
 
 ReactDOM.render(

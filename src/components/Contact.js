@@ -1,82 +1,32 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-function ContactForm() {
-    const [formState, setFormState] = useState({ name: '', email: '', subject: '', message: '' });
-    const { name, email, subject, message } = formState;
-    const [errorMessage, setErrorMessage] = useState('');
-
-    function validateEmail(email) {
-        var re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-        return re.test(String(email).toLowerCase());
-    }
-
-    function handleSubmit(event) {
-        event.preventDefault();
-        console.log(formState);
-    };
-
-    function handleChange(event) {
-        if (event.target.name === 'email') {
-            const isValid = validateEmail(event.target.value);
-            console.log(isValid);
-
-            if (!isValid) {
-                setErrorMessage('Your email is invalid.');
-            }
-            else {
-                setErrorMessage('');
-            }
-        }
-        else {
-            if (!event.target.value.length) {
-                setErrorMessage(`${event.target.name} is required.`)
-            }
-            else {
-                setErrorMessage('');
-            }
-        }
-        if (!errorMessage) {
-            setFormState({ ...formState, [event.target.name]: event.target.value });
-        }
-        console.log('errorMessage', errorMessage);
-    };
-
+function About() {
     return (
         <section className="container">
-            <div className="contact">
-                <h2 className="mTopBottom center">Contact me</h2>
-                <form className="contact-form" id="contact-form" onSubmit={handleSubmit}>
-                    <ul>
-                        <li>
-                            <input type="text" name="name" className="field-style field-split align-left" placeholder="Name" defaultValue={name} onBlur={handleChange} />
-                            <input type="email" name="email" className="field-style field-split align-right" placeholder="Email" defaultValue={email} onBlur={handleChange} />
+            <div className="about">
+                <div className="pic">
+                    <img className="pic" src={require(`../assets/images/Russ.jpg`).default} alt="Russ Tracy" />
+                </div>
+                <div className="text">
+                    <h2 className="mAll">Contact me</h2>
+                    <div className="mAll">
+                        <a href="mailto:russ_tracy@comcast.net">
+                            <FontAwesomeIcon icon={["fas", "envelope-square"]} size="1x" color="#607d8b" />
+                        </a> <a href="mailto:russ_tracy@comcast.net">russ_tracy@comcast.net</a>
+                    </div>
+                    <div className="mAll">
+                        <div>
+                            <FontAwesomeIcon icon={["fas", "mobile-alt"]} size="1x" color="#607d8b" /> (801)-628-9257
 
-                        </li>
-                        {/* <li>
-                        <input type="text" name="field3" className="field-style field-split align-left" placeholder="Phone" />
-                        <input type="url" name="field4" className="field-style field-split align-right" placeholder="Website" />
-                    </li> */}
-                        <li>
-                            <input type="text" name="subject" className="field-style field-full align-none" placeholder="Subject" defaultValue={subject} onBlur={handleChange} />
-                        </li>
-                        <li>
-                            <textarea name="message" className="field-style" placeholder="Message" defaultValue={message} onBlur={handleChange}></textarea>
-                        </li>
-                        <li>
-                            <input type="submit" value="Send Message" />
-                        </li>
-                        {errorMessage && (
-                            <li>
-                                <p className="error-text">{errorMessage}</p>
-                            </li>
-                        )}
-                    </ul>
-                </form>
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
         </section>
-    )
+    );
 };
 
-
-export default ContactForm;
-
+export default About;
