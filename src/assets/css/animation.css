@@ -38,19 +38,24 @@
     text-align: center;
     position: relative;
     font-size: 17px;
-    padding: 10px;
+    padding: 10px 5px;
     background: rgba(0, 0, 0, 0.8);
     margin: 20px 0 0 0;
 }
 
 .view p {
-    font-family: 'Montserrat', sans-serif;
-    font-style: italic;
+    font-family: 'Verdana', sans-serif;
+    font-style: normal;
     font-size: 12px;
     position: relative;
     color: #fff;
-    padding: 10px 20px 20px;
+    padding: 10px 10px 20px;
     text-align: center;
+}
+
+.view p span {
+    font-style: italic;
+    font-size: 10px;
 }
 
 .view a.info {
@@ -152,12 +157,12 @@
 }
 
 .view-animation:hover .content {
-    height: 120px;
+    height: 150px;
     width: 300px;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
     filter: alpha(opacity=90);
     opacity: 0.9;
-    top: 40px;
+    top: 25px;
     -webkit-transform: rotate(0deg) translate(0, 0);
     -moz-transform: rotate(0deg) translate(0, 0);
     -o-transform: rotate(0deg) translate(0, 0);
