@@ -15,7 +15,8 @@ function About() {
                         <li>jQuery</li>
                         <li>React</li>
                         <li>Bootstrap</li>
-                        <li>responsive design</li>
+                        <li>Media Queries</li>
+                        <li>Responsive Design</li>
                         <li>Version Control (Git, TFS)</li>
                         <li>Testing/Debugging (Jest)</li>
                     </ul>
